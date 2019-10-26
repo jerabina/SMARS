@@ -1,3 +1,4 @@
+#include <arduino.h>
 // definice pinu
 // motor A
 #define PIN_MOTOR_A_EN 10
@@ -5,6 +6,12 @@
 // motor B
 #define PIN_MOTOR_B_EN 11
 #define PIN_MOTOR_B_DIR 13
+
+void vpred();
+void vlevo();
+void vpravo();
+void vzad();
+void stuj();
 
 void setup() {
 	// inicializace pinu
@@ -18,37 +25,57 @@ void setup() {
 }
 
 void loop() {
-	/* chovani motor bridge
-	EN  DIR    co dela motor
-	0   0/1    motor stoji
-	1    0     motor běží na jednu stranu
-	1    1     motor běží na druhou stranu
-	*/
-
-	Serial.println("stop");
-	// motor A
-	digitalWrite(PIN_MOTOR_A_EN, LOW);
-	digitalWrite(PIN_MOTOR_A_DIR, LOW);
-	// motor B
-	digitalWrite(PIN_MOTOR_B_EN, LOW);
-	digitalWrite(PIN_MOTOR_B_DIR, LOW);
+	vpred();
 	delay(1000);
-
-	Serial.println("dopredu");
-	// motor A
-	digitalWrite(PIN_MOTOR_A_EN, HIGH);
-	digitalWrite(PIN_MOTOR_A_DIR, LOW);
-	// motor B
-	digitalWrite(PIN_MOTOR_B_EN, HIGH);
-	digitalWrite(PIN_MOTOR_B_DIR, HIGH);
+	vlevo();
+	delay(800);
+	vpravo();
+	delay(800);
+	vzad();
 	delay(1000);
+	stuj();
+	delay(1000);
+}
 
-	Serial.println("dozadu");
+void vpred() {
 	// motor A
 	digitalWrite(PIN_MOTOR_A_EN, HIGH);
 	digitalWrite(PIN_MOTOR_A_DIR, HIGH);
 	// motor B
 	digitalWrite(PIN_MOTOR_B_EN, HIGH);
 	digitalWrite(PIN_MOTOR_B_DIR, LOW);
-	delay(1000);
+}
+
+void vlevo() {
+	// motor A
+	digitalWrite(PIN_MOTOR_A_EN, HIGH);
+	digitalWrite(PIN_MOTOR_A_DIR, LOW);
+	// motor B
+	digitalWrite(PIN_MOTOR_B_EN, HIGH);
+	digitalWrite(PIN_MOTOR_B_DIR, LOW);
+}
+
+void vpravo() {
+	// motor A
+	digitalWrite(PIN_MOTOR_A_EN, HIGH);
+	digitalWrite(PIN_MOTOR_A_DIR, HIGH);
+	// motor B
+	digitalWrite(PIN_MOTOR_B_EN, HIGH);
+	digitalWrite(PIN_MOTOR_B_DIR, HIGH);
+}
+
+void vzad() {
+	// motor A
+	digitalWrite(PIN_MOTOR_A_EN, HIGH);
+	digitalWrite(PIN_MOTOR_A_DIR, LOW);
+	// motor B
+	digitalWrite(PIN_MOTOR_B_EN, HIGH);
+	digitalWrite(PIN_MOTOR_B_DIR, HIGH);
+}
+
+void stuj() {
+	// motor A
+	digitalWrite(PIN_MOTOR_A_EN, LOW);
+	// motor B
+	digitalWrite(PIN_MOTOR_B_EN, LOW);
 }
