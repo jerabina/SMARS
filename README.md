@@ -2,6 +2,8 @@
 
 ## Hardware
 
+### Electronic
+
 I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use the servo while driving motors using pwm
 
 ```
@@ -14,6 +16,11 @@ I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use
 #define PIN_SONAR_TRIG 8
 #define PIN_SONAR_ECHO 7
 ```
+
+### 3D print
+[Various additional brackets](https://github.com/jerabina/SMARS/blob/master/stl_addons/)
+
+
 
 ## Software
 - [Bluetooth rover](https://github.com/jerabina/SMARS/blob/master/bluetooth_rover/)
