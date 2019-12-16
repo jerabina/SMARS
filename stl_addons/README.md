@@ -1,0 +1,15 @@
+# SMARS addons
+
+- balloon holder [Line follower digital easy](sma_ballon_main.stl), [Line follower digital easy](sma_ballon_main.stl)
+- pin holder [sma_pin_holder.stl](sma_pin_holder.stl), [sma_pin_main.stl](sma_pin_main.stl)
+- lock [sma_lock.stl](sma_lock.stl), [sma_lock_paw.stl](sma_lock_paw.stl)
+- uno a 18650 battery holder [sma_holder_top.stl](sma_holder_top.stl), [sma_holder-18650.stl](sma_holder-18650.stl)
+- one slot holder [sma_holder_connector_a.stl](sma_holder_connector_a.stl)
+- three slot holder [sma_holder_connector_3a.stl](sma_holder_connector_3a.stl)
+- ir sensor [sma_ir_sensor_a.stl](sma_ir_sensor_a.stl), [sma_ir_sensor_b.stl](sma_ir_sensor_b.stl)
+- line follower holder [sma_line-follow_main.stl](sma_line-follow_main.stl), [sma_line-follow_holder.stl](sma_line-follow_holder.stl)
+- servo holder [sma_servo_holder.stl](sma_servo_holder.stl)
+- shovel [sma_shovel.stl](sma_shovel.stl)
+- shovel with utrasonic sensor [sma_shovel_ultrasonic.stl](sma_shovel_ultrasonic.stl), [sma_shovel_ultrasonic_case.stl](sma_shovel_ultrasonic_case.stl)
+- utrasonic sensor [sma_ultrasonic_1.stl](sma_ultrasonic_1.stl), [sma_ultrasonic_2a_V2.stl](sma_ultrasonic_2a_V2.stl) or [sma_ultrasonic_2b_V2.stl](sma_ultrasonic_2b_V2.stl)
+- mold for casting polyurethane tires [mold.stl](tire-mold/mold.stl), [wheel-mold.stl](tire-mold/wheel-mold.stl)
