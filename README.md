@@ -12,6 +12,9 @@ Author: Kevin Thomas
 
 I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use the servo while driving motors using pwm
 
+!FunduMoto shield](images/fundumoto-shield.jpg){:width="400px"}
+
+
 ```
 #define PIN_MOTOR_A_EN 5
 #define PIN_MOTOR_A_DIR 12
@@ -24,10 +27,10 @@ I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use
 ```
 
 ### 3D print
-[Various additional brackets](https://github.com/jerabina/SMARS/blob/master/stl_addons/)
+[Various additional brackets](stl_addons/)
 
 
 ## Software
-- [Bluetooth rover](https://github.com/jerabina/SMARS/blob/master/bluetooth_rover/)
-- [Line follower digital](https://github.com/jerabina/SMARS/tree/master/line-follower_digital)
-- [Line follower digital easy](https://github.com/jerabina/SMARS/tree/master/line-follower_easy-digital)
+- [Bluetooth rover](bluetooth_rover/)
+- [Line follower digital](line-follower_digital)
+- [Line follower digital easy](line-follower_easy-digital)
