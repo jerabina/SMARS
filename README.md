@@ -29,5 +29,5 @@ I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use
 
 ## Software
 - [Bluetooth rover](https://github.com/jerabina/SMARS/blob/master/bluetooth_rover/)
-- [line follower digital](https://github.com/jerabina/SMARS/tree/master/line-follower_digital)
-- [line follower digital easy](https://github.com/jerabina/SMARS/tree/master/line-follower_easy-digital)
+- [Line follower digital](https://github.com/jerabina/SMARS/tree/master/line-follower_digital)
+- [Line follower digital easy](https://github.com/jerabina/SMARS/tree/master/line-follower_easy-digital)
