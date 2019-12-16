@@ -12,7 +12,7 @@ Author: Kevin Thomas
 
 I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use the servo while driving motors using pwm
 
-![FunduMoto shield](images/fundumoto-shield.jpg =400x)
+![FunduMoto shield](images/fundumoto-shield.jpg =400px)
 
 
 ```
