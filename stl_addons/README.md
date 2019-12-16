@@ -1,6 +1,6 @@
 # SMARS addons
 
-- balloon holder [Line follower digital easy](sma_ballon_main.stl), [Line follower digital easy](sma_ballon_main.stl)
+- balloon holder [sma_ballon_main.stl](sma_ballon_main.stl), [sma_ballon_main.stl](sma_ballon_main.stl)
 - pin holder [sma_pin_holder.stl](sma_pin_holder.stl), [sma_pin_main.stl](sma_pin_main.stl)
 - lock [sma_lock.stl](sma_lock.stl), [sma_lock_paw.stl](sma_lock_paw.stl)
 - uno a 18650 battery holder [sma_holder_top.stl](sma_holder_top.stl), [sma_holder-18650.stl](sma_holder-18650.stl)
