@@ -8,6 +8,8 @@ Author: Kevin Thomas
 
 ## Hardware
 
+![robot linefollower](images/robot_linefollower.jpg) ![robot ultrasonic](images/robot_ultrasonic.jpg)
+
 ### Electronic
 
 I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use the servo while driving motors using pwm
