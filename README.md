@@ -31,6 +31,4 @@ I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use
 
 
 ## Software
-- [Bluetooth rover](bluetooth_rover/)
-- [Line follower digital](line-follower_digital)
-- [Line follower digital easy](line-follower_easy-digital)
+[Various code examples](code/)
