@@ -13,4 +13,4 @@
 - shovel with utrasonic sensor [sma_shovel_ultrasonic.stl](sma_shovel_ultrasonic.stl), [sma_shovel_ultrasonic_case.stl](sma_shovel_ultrasonic_case.stl)
 - utrasonic sensor [sma_ultrasonic_1.stl](sma_ultrasonic_1.stl), [sma_ultrasonic_2a_V2.stl](sma_ultrasonic_2a_V2.stl) or [sma_ultrasonic_2b_V2.stl](sma_ultrasonic_2b_V2.stl)
 - mold for casting polyurethane tires [mold.stl](tire-mold/mold.stl), [wheel-mold.stl](tire-mold/wheel-mold.stl)
-- slave wheel without protrusions for belt [mold.stl](wheel_slave.stl)
+- slave wheel without protrusions for belt [wheel_slave.stl](wheel_slave.stl)
