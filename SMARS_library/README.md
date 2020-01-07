@@ -18,4 +18,4 @@ Method:
 - **beepSuccess()** - pseudo melody well buzzer
 - **beepDanger()** - pseudo tunes wrong on buzzer
 
-[SMARS robot github](https://github.com/jerabina/SMARS)
+[SMARS robot github releases](https://github.com/jerabina/SMARS/releases)
