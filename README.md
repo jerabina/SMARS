@@ -9,12 +9,13 @@ Author: Kevin Thomas
 ## Hardware
 
 ![robot linefollower](images/robot_linefollower.jpg) ![robot ultrasonic](images/robot_ultrasonic.jpg)
+![robot linefollower](images/robot_balloon_battle.jpg) ![robot ultrasonic](images/robot_clamps.jpg)
 
 ### Electronic
 
-I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use the servo while driving motors using pwm
+I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use the servo while driving motors using pwm.
 
-![FunduMoto shield](images/fundumoto-shield.jpg)
+![FunduMoto shield top](images/fundumoto-shield_top.jpg) ![FunduMoto shield bottom](images/fundumoto-shield_bottom.jpg)
 
 
 ```
