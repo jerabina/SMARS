@@ -1,5 +1,0 @@
-= SMARS robot library =
-
-This library is used to control the SMARS robot
-
-![SMARS robot github](https://github.com/jerabina/SMARS)
