@@ -16,6 +16,8 @@ Smars::Smars() {
 	devSonar = new NewPing(PIN_SONAR_TRIG, PIN_SONAR_ECHO, SONAR_MAX_DISTANCE);
 	devServo = new Servo;
 	devServo->attach(PIN_SERVO, SERVO_MIN_PULSE_WIDTH, SERVO_MAX_PULSE_WIDTH);
+	devLed = new Adafruit_NeoPixel(1, PIN_NEOPIXEL, NEO_GRB + NEO_KHZ800);
+	devLed->begin();
 }
 
 // motorsBridge
@@ -61,9 +63,15 @@ unsigned long Smars::sonar(unsigned int max_cm_distance) {
 }
 
 
-// Writes a value (angle) to the servo, controlling the shaft accordingly. 
+// writes a value (angle) to the servo, controlling the shaft accordingly. 
 void Smars::servo(int value) {
 	this->devServo->write(value);
+}
+
+// light the neopixel ice into the RGB color
+void Smars::led(uint8_t r, uint8_t g, uint8_t b) {
+	this->devLed->setPixelColor(0, r, g, b);
+	this->devLed->show();
 }
 
 

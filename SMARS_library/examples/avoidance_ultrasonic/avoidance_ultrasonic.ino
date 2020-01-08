@@ -21,12 +21,14 @@ int speed = 200;
 
 void setup() {
 	robot.beepSuccess();
+	robot.led(0, 255, 0);
 }
 
 void loop() {
 	sonarDistance = robot.sonar();
 
 	if (sonarDistance>0 && sonarDistance<15) {
+		robot.led(255, 0, 0);
 		robot.motorsStop();
 		robot.beepDanger();
 		delay(10);
@@ -37,6 +39,7 @@ void loop() {
 		robot.motorsStop();
 				
 	} else {
+		robot.led(0, 255, 0);
 		robot.motorsForward(speed);
 	}
 	delay(100);

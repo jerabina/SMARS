@@ -8,7 +8,10 @@
 #include "Arduino.h"
 #include <Servo.h>
 #include <NewPing.h>
+#include <Adafruit_NeoPixel.h>
 
+// LED 
+#define PIN_NEOPIXEL 2
 
 // motors connections
 #define PIN_MOTOR_A_EN 5
@@ -65,6 +68,7 @@ class Smars {
 	private:
 		Servo *devServo;
 		NewPing *devSonar;
+		Adafruit_NeoPixel *devLed;
 	public:
 		Smars();
 		
@@ -80,6 +84,8 @@ class Smars {
 		unsigned long sonar(unsigned int max_cm_distance=0);
 		
 		void servo(int value);
+
+		void led(uint8_t r, uint8_t g, uint8_t b);
 		
 		void beepOn();
 		void beepOff();

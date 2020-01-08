@@ -12,6 +12,7 @@ Method:
 - **motorsRight(int speedSet)** - turns right at specified speed
 - **motorsLeft(int speedSet)** - turns left at specified speed
 - **sonar(unsigned int max_cm_distance=0)** - returns the distance from the utrasonic sensor in centimeters
+- **led(uint8_t r, uint8_t g, uint8_t b)** - light the neopixel ice into the RGB color
 - **servo(int value)** - turns the servo to the set angle
 - **beepOn()** - turns on the buzzer
 - **beepOff()** - turns off the buzzer
