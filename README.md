@@ -46,5 +46,5 @@ I use Arduino UNO with modified FunduMoto shield. I swapped pins 5 and 10 to use
 
 
 ## Software
-[Arduino library with examples](SMARS_library/)  
+[Arduino library with examples](https://github.com/jerabina/SMARS_library)  
 [Various code examples without library](code/)
